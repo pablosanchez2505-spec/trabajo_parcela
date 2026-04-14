@@ -15,4 +15,7 @@ public class Rectangulo implements Medible {
     public double calcularPerimetro() {
         return 2 * (base + altura);
     }
+    public String nombre(){
+        return "Rectangulo";
+    }
 }

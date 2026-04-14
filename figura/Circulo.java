@@ -13,4 +13,7 @@ public class Circulo implements Medible {
     return Math.PI * r * r;
 
    }
+   public String nombre(){
+        return "Circulo";
+    }
 }

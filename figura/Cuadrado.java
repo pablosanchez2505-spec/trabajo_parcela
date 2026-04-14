@@ -11,4 +11,7 @@ public class Cuadrado implements Medible{
     public double calcularPerimetro(){
         return 4*lado;
     }
+    public String nombre(){
+        return "Cuadrado";
+    }
 }

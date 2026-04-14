@@ -17,4 +17,7 @@ return Math.sqrt(s * (s - lado1) * (s - lado2) * (s - lado3));//Mathsqrt te calc
 public double calcularPerimetro(){
     return lado1+lado2+lado3;
 }
+public String nombre(){
+        return "Triangulo";
+    }
 }
